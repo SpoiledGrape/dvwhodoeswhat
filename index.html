@@ -1,785 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>        
+    <head>
         <!-- META SECTION -->
-        <title>Atlant - Responsive Bootstrap Admin Template</title>            
+        <title>Atlant - Front-End Template</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <!-- END META SECTION -->
         
-        <!-- CSS INCLUDE -->        
-        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
-        <!-- EOF CSS INCLUDE -->    
+        <link rel="stylesheet" type="text/css" href="css/revolution-slider/extralayers.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/revolution-slider/settings.css" media="screen" />
+        
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />                  
+
     </head>
     <body>
-        <!-- START PAGE CONTAINER -->
+        <!-- page container -->
         <div class="page-container">
             
-            <!-- START PAGE SIDEBAR -->
-            <div class="page-sidebar">
-                <!-- START X-NAVIGATION -->
-                <ul class="x-navigation">
-                    <li class="xn-logo">
-                        <a href="index.html">ATLANT</a>
-                        <a href="#" class="x-navigation-control"></a>
-                    </li>
-                    <li class="xn-profile">
-                        <a href="#" class="profile-mini">
-                            <img src="assets/images/users/avatar.jpg" alt="John Doe"/>
-                        </a>
-                        <div class="profile">
-                            <div class="profile-image">
-                                <img src="assets/images/users/avatar.jpg" alt="John Doe"/>
-                            </div>
-                            <div class="profile-data">
-                                <div class="profile-data-name">John Doe</div>
-                                <div class="profile-data-title">Web Developer/Designer</div>
-                            </div>
-                            <div class="profile-controls">
-                                <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
-                                <a href="pages-messages.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
-                            </div>
-                        </div>                                                                        
-                    </li>
-                    <li class="xn-title">Navigation</li>
-                    <li class="active">
-                        <a href="index.html"><span class="fa fa-desktop"></span> <span class="xn-text">Dashboard</span></a>                        
-                    </li>                    
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text">Pages</span></a>
-                        <ul>
-                            <li><a href="pages-gallery.html"><span class="fa fa-image"></span> Gallery</a></li>
-                            <li><a href="pages-invoice.html"><span class="fa fa-dollar"></span> Invoice</a></li>
-                            <li><a href="pages-edit-profile.html"><span class="fa fa-wrench"></span> Edit Profile</a></li>
-                            <li><a href="pages-profile.html"><span class="fa fa-user"></span> Profile</a></li>
-                            <li><a href="pages-address-book.html"><span class="fa fa-users"></span> Address Book</a></li>
-                            <li class="xn-openable">
-                                <a href="#"><span class="fa fa-clock-o"></span> Timeline</a>
-                                <ul>
-                                    <li><a href="pages-timeline.html"><span class="fa fa-align-center"></span> Default</a></li>
-                                    <li><a href="pages-timeline-simple.html"><span class="fa fa-align-justify"></span> Full Width</a></li>
-                                </ul>
-                            </li>
-                            <li class="xn-openable">
-                                <a href="#"><span class="fa fa-envelope"></span> Mailbox</a>
-                                <ul>
-                                    <li><a href="pages-mailbox-inbox.html"><span class="fa fa-inbox"></span> Inbox</a></li>
-                                    <li><a href="pages-mailbox-message.html"><span class="fa fa-file-text"></span> Message</a></li>
-                                    <li><a href="pages-mailbox-compose.html"><span class="fa fa-pencil"></span> Compose</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="pages-messages.html"><span class="fa fa-comments"></span> Messages</a></li>
-                            <li><a href="pages-calendar.html"><span class="fa fa-calendar"></span> Calendar</a></li>
-                            <li><a href="pages-tasks.html"><span class="fa fa-edit"></span> Tasks</a></li>
-                            <li><a href="pages-content-table.html"><span class="fa fa-columns"></span> Content Table</a></li>
-                            <li><a href="pages-faq.html"><span class="fa fa-question-circle"></span> FAQ</a></li>
-                            <li><a href="pages-search.html"><span class="fa fa-search"></span> Search</a></li>
-                            <li class="xn-openable">
-                                <a href="#"><span class="fa fa-file"></span> Blog</a>
-                                
-                                <ul>                                    
-                                    <li><a href="pages-blog-list.html"><span class="fa fa-copy"></span> List of Posts</a></li>
-                                    <li><a href="pages-blog-post.html"><span class="fa fa-file-o"></span>Single Post</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="pages-lock-screen.html"><span class="fa fa-lock"></span> Lock Screen</a></li>
-                            <li class="xn-openable">
-                                <a href="#"><span class="fa fa-sign-in"></span> Login</a>
-                                <ul>                                                                        
-                                    <li><a href="pages-login.html">Login v1</a></li>
-                                    <li><a href="pages-login-v2.html">Login v2</a></li>
-                                    <li><a href="pages-login-inside.html">Login v2 Inside</a></li>
-                                    <li><a href="pages-login-website.html">Website Login</a></li>
-                                    <li><a href="pages-login-website-light.html"> Website Login Light</a></li>
-                                </ul>
-                            </li>
-                            <li class="xn-openable">
-                                <a href="#"><span class="fa fa-plus"></span> Registration</a><div class="informer informer-danger">New!</div>
-                                <ul>                                                                        
-                                    <li><a href="pages-registration.html">Default</a></li>
-                                    <li><a href="pages-registration-login.html">With Login</a></li>                                    
-                                </ul>
-                            </li>
-                            <li><a href="pages-forgot-password.html"><span class="fa fa-question"></span> Forgot Password</a><div class="informer informer-danger">New!</div></li>                            
-                            <li class="xn-openable">
-                                <a href="#"><span class="fa fa-warning"></span> Error Pages</a>
-                                <ul>                                    
-                                    <li><a href="pages-error-404.html">Error 404 Sample 1</a></li>
-                                    <li><a href="pages-error-404-2.html">Error 404 Sample 2</a></li>
-                                    <li><a href="pages-error-500.html"> Error 500</a></li>
-                                </ul>
-                            </li>                            
-                        </ul>
-                    </li>
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">Layouts</span></a>
-                        <ul>
-                            <li><a href="layout-boxed.html">Boxed</a></li>
-                            <li><a href="layout-nav-toggled.html">Navigation Toggled</a></li>
-                            <li><a href="layout-nav-toggled-hover.html">Nav Toggled (Hover)</a></li>
-                            <li><a href="layout-nav-toggled-item-hover.html">Nav Toggled (Item Hover)</a></li>
-                            <li><a href="layout-nav-top.html">Navigation Top</a></li>
-                            <li><a href="layout-nav-right.html">Navigation Right</a></li>
-                            <li><a href="layout-nav-top-fixed.html">Top Navigation Fixed</a></li>
-                            <li><a href="layout-nav-custom.html">Custom Navigation</a></li>
-                            <li><a href="layout-nav-top-custom.html">Custom Top Navigation</a></li>
-                            <li><a href="layout-frame-left.html">Frame Left Column</a></li>
-                            <li><a href="layout-frame-right.html">Frame Right Column</a></li>
-                            <li><a href="layout-search-left.html">Search Left Side</a></li>
-                            <li><a href="layout-page-sidebar.html">Page Sidebar</a></li>
-                            <li><a href="layout-page-loading.html">Page Loading</a></li>
-                            <li><a href="layout-rtl.html">Layout RTL</a></li>
-                            <li><a href="layout-tabbed.html">Page Tabbed</a><div class="informer informer-danger">New!</div></li>
-                            <li><a href="layout-custom-header.html">Custom Header</a><div class="informer informer-danger">New!</div></li>
-                            <li><a href="layout-adaptive-panels.html">Adaptive Panels</a><div class="informer informer-danger">New!</div></li>                            
-                            <li><a href="blank.html">Blank Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="xn-title">Components</li>
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">UI Kits</span></a>                        
-                        <ul>
-                            <li><a href="ui-widgets.html"><span class="fa fa-heart"></span> Widgets</a></li>                            
-                            <li><a href="ui-elements.html"><span class="fa fa-cogs"></span> Elements</a></li>
-                            <li><a href="ui-buttons.html"><span class="fa fa-square-o"></span> Buttons</a></li>                            
-                            <li><a href="ui-panels.html"><span class="fa fa-pencil-square-o"></span> Panels</a></li>
-                            <li><a href="ui-icons.html"><span class="fa fa-magic"></span> Icons</a><div class="informer informer-warning">+679</div></li>
-                            <li><a href="ui-typography.html"><span class="fa fa-pencil"></span> Typography</a></li>
-                            <li><a href="ui-portlet.html"><span class="fa fa-th"></span> Portlet</a></li>
-                            <li><a href="ui-sliders.html"><span class="fa fa-arrows-h"></span> Sliders</a></li>
-                            <li><a href="ui-alerts-popups.html"><span class="fa fa-warning"></span> Alerts & Popups</a></li>                            
-                            <li><a href="ui-lists.html"><span class="fa fa-list-ul"></span> Lists</a></li>
-                            <li><a href="ui-tour.html"><span class="fa fa-random"></span> Tour</a></li>
-                            <li><a href="ui-nestable.html"><span class="fa fa-sitemap"></span> Nestable List</a></li>
-                            <li><a href="ui-autocomplete.html"><span class="fa fa-search-plus"></span> Autocomplete</a></li>
-                            <li><a href="ui-slide-menu.html"><span class="fa fa-angle-right"></span> Slide Menu</a><div class="informer informer-danger">New!</div></li>
-                        </ul>
-                    </li>                    
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
-                        <ul>
-                            <li class="xn-openable">
-                                <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>                                
-                                <ul>
-                                    <li><a href="form-layouts-one-column.html"><span class="fa fa-align-justify"></span> One Column</a></li>
-                                    <li><a href="form-layouts-two-column.html"><span class="fa fa-th-large"></span> Two Column</a></li>
-                                    <li><a href="form-layouts-tabbed.html"><span class="fa fa-table"></span> Tabbed</a></li>
-                                    <li><a href="form-layouts-separated.html"><span class="fa fa-th-list"></span> Separated Rows</a></li>
-                                </ul> 
-                            </li>
-                            <li><a href="form-elements.html"><span class="fa fa-file-text-o"></span> Elements</a></li>
-                            <li><a href="form-validation.html"><span class="fa fa-list-alt"></span> Validation</a></li>
-                            <li><a href="form-wizards.html"><span class="fa fa-arrow-right"></span> Wizards</a></li>
-                            <li><a href="form-editors.html"><span class="fa fa-text-width"></span> WYSIWYG Editors</a></li>
-                            <li><a href="form-file-handling.html"><span class="fa fa-floppy-o"></span> File Handling</a></li>
-                        </ul>
-                    </li>
-                    <li class="xn-openable">
-                        <a href="tables.html"><span class="fa fa-table"></span> <span class="xn-text">Tables</span></a>
-                        <ul>                            
-                            <li><a href="table-basic.html"><span class="fa fa-align-justify"></span> Basic</a></li>
-                            <li><a href="table-datatables.html"><span class="fa fa-sort-alpha-desc"></span> Data Tables</a></li>
-                            <li><a href="table-export.html"><span class="fa fa-download"></span> Export Tables</a></li>                            
-                        </ul>
-                    </li>
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-bar-chart-o"></span> <span class="xn-text">Charts</span></a>
-                        <ul>
-                            <li><a href="charts-morris.html">Morris</a></li>
-                            <li><a href="charts-nvd3.html">NVD3</a></li>
-                            <li><a href="charts-rickshaw.html">Rickshaw</a></li>
-                            <li><a href="charts-other.html">Other</a></li>
-                        </ul>
-                    </li>                    
-                    <li>
-                        <a href="maps.html"><span class="fa fa-map-marker"></span> <span class="xn-text">Maps</span></a>
-                    </li>                    
-                    <li class="xn-openable">
-                        <a href="#"><span class="fa fa-sitemap"></span> <span class="xn-text">Navigation Levels</span></a>
-                        <ul>                            
-                            <li class="xn-openable">
-                                <a href="#">Second Level</a>
-                                <ul>
-                                    <li class="xn-openable">
-                                        <a href="#">Third Level</a>
-                                        <ul>
-                                            <li class="xn-openable">
-                                                <a href="#">Fourth Level</a>
-                                                <ul>
-                                                    <li><a href="#">Fifth Level</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>                            
-                        </ul>
-                    </li>
+            <!-- page header -->
+            <div class="page-header">
+                
+                <!-- page header holder -->
+                <div class="page-header-holder">
                     
-                </ul>
-                <!-- END X-NAVIGATION -->
+                    <!-- page logo -->
+                    <div class="logo">
+                        <a href="index.html">Atlant - Front-end Template</a>
+                    </div>
+                    <!-- ./page logo -->
+                    
+
+                    <!-- search -->
+                    <div class="search">
+                        <div class="search-button"><span class="fa fa-search"></span></div>
+                        <div class="search-container animated fadeInDown">
+                            <form action="#" method="post">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search..."/>
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-primary"><span class="fa fa-search"></span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- ./search -->
+
+                    <!-- nav mobile bars -->
+                    <div class="navigation-toggle">
+                        <div class="navigation-toggle-button"><span class="fa fa-bars"></span></div>
+                    </div>
+                    <!-- ./nav mobile bars -->
+                    
+                    <!-- navigation -->
+                    <ul class="navigation">
+                        <li>
+                            <a href="#">Home</a>
+                            <ul>
+                                <li><a href="index.html">With Slider</a></li>
+                                <li><a href="index-default.html">Default</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                            <ul>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                            <ul>
+                                <li><a href="blog-grid.html">Blog Grid</a></li>
+                                <li><a href="blog-post.html">Blog Post</a></li>                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                            <ul>
+                                <li><a href="portfolio-with-title.html">Portfolio With Title</a></li>
+                                <li><a href="portfolio-2column.html">Portfolio 2 Column</a></li>
+                                <li><a href="portfolio-3column.html">Portfolio 3 Column</a></li>
+                                <li><a href="portfolio-4column.html">Portfolio 4 Column</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../html/index.html">Admin Template</a></li>
+                    </ul>
+                    <!-- ./navigation -->                        
+
+                    
+                </div>
+                <!-- ./page header holder -->
+                
             </div>
-            <!-- END PAGE SIDEBAR -->
+            <!-- ./page header -->
             
-            <!-- PAGE CONTENT -->
+            <!-- page content -->
             <div class="page-content">
                 
-                <!-- START X-NAVIGATION VERTICAL -->
-                <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
-                    <!-- TOGGLE NAVIGATION -->
-                    <li class="xn-icon-button">
-                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
-                    </li>
-                    <!-- END TOGGLE NAVIGATION -->
-                    <!-- SEARCH -->
-                    <li class="xn-search">
-                        <form role="form">
-                            <input type="text" name="search" placeholder="Search..."/>
-                        </form>
-                    </li>   
-                    <!-- END SEARCH -->                    
-                    <!-- POWER OFF -->
-                    <li class="xn-icon-button pull-right last">
-                        <a href="#"><span class="fa fa-power-off"></span></a>
-                        <ul class="xn-drop-left animated zoomIn">
-                            <li><a href="pages-lock-screen.html"><span class="fa fa-lock"></span> Lock Screen</a></li>
-                            <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
-                        </ul>                        
-                    </li> 
-                    <!-- END POWER OFF -->                    
-                    <!-- MESSAGES -->
-                    <li class="xn-icon-button pull-right">
-                        <a href="#"><span class="fa fa-comments"></span></a>
-                        <div class="informer informer-danger">4</div>
-                        <div class="panel panel-primary animated zoomIn xn-drop-left xn-panel-dragging">
-                            <div class="panel-heading">
-                                <h3 class="panel-title"><span class="fa fa-comments"></span> Messages</h3>                                
-                                <div class="pull-right">
-                                    <span class="label label-danger">4 new</span>
-                                </div>
-                            </div>
-                            <div class="panel-body list-group list-group-contacts scroll" style="height: 200px;">
-                                <a href="#" class="list-group-item">
-                                    <div class="list-group-status status-online"></div>
-                                    <img src="assets/images/users/user2.jpg" class="pull-left" alt="John Doe"/>
-                                    <span class="contacts-title">John Doe</span>
-                                    <p>Praesent placerat tellus id augue condimentum</p>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <div class="list-group-status status-away"></div>
-                                    <img src="assets/images/users/user.jpg" class="pull-left" alt="Dmitry Ivaniuk"/>
-                                    <span class="contacts-title">Dmitry Ivaniuk</span>
-                                    <p>Donec risus sapien, sagittis et magna quis</p>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <div class="list-group-status status-away"></div>
-                                    <img src="assets/images/users/user3.jpg" class="pull-left" alt="Nadia Ali"/>
-                                    <span class="contacts-title">Nadia Ali</span>
-                                    <p>Mauris vel eros ut nunc rhoncus cursus sed</p>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <div class="list-group-status status-offline"></div>
-                                    <img src="assets/images/users/user6.jpg" class="pull-left" alt="Darth Vader"/>
-                                    <span class="contacts-title">Darth Vader</span>
-                                    <p>I want my money back!</p>
-                                </a>
-                            </div>     
-                            <div class="panel-footer text-center">
-                                <a href="pages-messages.html">Show all messages</a>
-                            </div>                            
-                        </div>                        
-                    </li>
-                    <!-- END MESSAGES -->
-                    <!-- TASKS -->
-                    <li class="xn-icon-button pull-right">
-                        <a href="#"><span class="fa fa-tasks"></span></a>
-                        <div class="informer informer-warning">3</div>
-                        <div class="panel panel-primary animated zoomIn xn-drop-left xn-panel-dragging">
-                            <div class="panel-heading">
-                                <h3 class="panel-title"><span class="fa fa-tasks"></span> Tasks</h3>                                
-                                <div class="pull-right">
-                                    <span class="label label-warning">3 active</span>
-                                </div>
-                            </div>
-                            <div class="panel-body list-group scroll" style="height: 200px;">                                
-                                <a class="list-group-item" href="#">
-                                    <strong>Phasellus augue arcu, elementum</strong>
-                                    <div class="progress progress-small progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
-                                    </div>
-                                    <small class="text-muted">John Doe, 25 Sep 2015 / 50%</small>
-                                </a>
-                                <a class="list-group-item" href="#">
-                                    <strong>Aenean ac cursus</strong>
-                                    <div class="progress progress-small progress-striped active">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
-                                    </div>
-                                    <small class="text-muted">Dmitry Ivaniuk, 24 Sep 2015 / 80%</small>
-                                </a>
-                                <a class="list-group-item" href="#">
-                                    <strong>Lorem ipsum dolor</strong>
-                                    <div class="progress progress-small progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">95%</div>
-                                    </div>
-                                    <small class="text-muted">John Doe, 23 Sep 2015 / 95%</small>
-                                </a>
-                                <a class="list-group-item" href="#">
-                                    <strong>Cras suscipit ac quam at tincidunt.</strong>
-                                    <div class="progress progress-small">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-                                    </div>
-                                    <small class="text-muted">John Doe, 21 Sep 2015 /</small><small class="text-success"> Done</small>
-                                </a>                                
-                            </div>     
-                            <div class="panel-footer text-center">
-                                <a href="pages-tasks.html">Show all tasks</a>
-                            </div>                            
-                        </div>                        
-                    </li>
-                    <!-- END TASKS -->
-                    <!-- LANG BAR -->
-                    <li class="xn-icon-button pull-right">
-                        <a href="#"><span class="flag flag-gb"></span></a>
-                        <ul class="xn-drop-left xn-drop-white animated zoomIn">
-                            <li><a href="#"><span class="flag flag-gb"></span> English</a></li>
-                            <li><a href="#"><span class="flag flag-de"></span> Deutsch</a></li>
-                            <li><a href="#"><span class="flag flag-cn"></span> Chinese</a></li>
-                        </ul>                        
-                    </li> 
-                    <!-- END LANG BAR -->
-                </ul>
-                <!-- END X-NAVIGATION VERTICAL -->                     
-
-                <!-- START BREADCRUMB -->
-                <ul class="breadcrumb">
-                    <li><a href="#">Home</a></li>                    
-                    <li class="active">Dashboard</li>
-                </ul>
-                <!-- END BREADCRUMB -->                       
                 
-                <!-- PAGE CONTENT WRAPPER -->
-                <div class="page-content-wrap">
-                    
-                    <!-- START WIDGETS -->                    
-                    <div class="row">
-                        <div class="col-md-3">
+                <!-- revolution slider -->
+                <div class="banner-container">
+                    <div class="banner">
+
+                        <ul>
                             
-                            <!-- START WIDGET SLIDER -->
-                            <div class="widget widget-default widget-carousel">
-                                <div class="owl-carousel" id="owl-example">
-                                    <div>                                    
-                                        <div class="widget-title">Total Visitors</div>                                                                        
-                                        <div class="widget-subtitle">27/08/2015 15:23</div>
-                                        <div class="widget-int">3,548</div>
-                                    </div>
-                                    <div>                                    
-                                        <div class="widget-title">Returned</div>
-                                        <div class="widget-subtitle">Visitors</div>
-                                        <div class="widget-int">1,695</div>
-                                    </div>
-                                    <div>                                    
-                                        <div class="widget-title">New</div>
-                                        <div class="widget-subtitle">Visitors</div>
-                                        <div class="widget-int">1,977</div>
-                                    </div>
-                                </div>                            
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
-                                </div>                             
-                            </div>         
-                            <!-- END WIDGET SLIDER -->
-                            
-                        </div>
-                        <div class="col-md-3">
-                            
-                            <!-- START WIDGET MESSAGES -->
-                            <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
-                                <div class="widget-item-left">
-                                    <span class="fa fa-envelope"></span>
-                                </div>                             
-                                <div class="widget-data">
-                                    <div class="widget-int num-count">48</div>
-                                    <div class="widget-title">New messages</div>
-                                    <div class="widget-subtitle">In your mailbox</div>
-                                </div>      
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="500"  data-saveperformance="on">
+                                <img src="img/backgrounds/bg-2.jpg" />
+                                
+                                <div class="tp-caption lft customout rs-parallaxlevel-0"
+                                    data-x="150"
+                                    data-y="80" 
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="500"
+                                    data-start="700"
+                                    data-easing="Power3.easeInOut"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    style="z-index: 2;">
+                                    <img src="assets/slider-layers/atlant-title.png" alt="Atlant"/>
                                 </div>
-                            </div>                            
-                            <!-- END WIDGET MESSAGES -->
-                            
-                        </div>
-                        <div class="col-md-3">
-                            
-                            <!-- START WIDGET REGISTRED -->
-                            <div class="widget widget-default widget-item-icon" onclick="location.href='pages-address-book.html';">
-                                <div class="widget-item-left">
-                                    <span class="fa fa-user"></span>
+                                
+                                
+                                <div class="tp-caption lft customout rs-parallaxlevel-0"
+                                    data-x="550"
+                                    data-y="230" 
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="700"
+                                    data-start="1200"
+                                    data-easing="Power3.easeInOut"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    style="z-index: 3;">
+                                    <img src="assets/slider-layers/atlant_monitor.png" alt="Atlant"/>
                                 </div>
-                                <div class="widget-data">
-                                    <div class="widget-int num-count">375</div>
-                                    <div class="widget-title">Registred users</div>
-                                    <div class="widget-subtitle">On your website</div>
+                                
+                                <div class="tp-caption black_thin_34 customin tp-resizeme rs-parallaxlevel-0"
+                                    data-x="0"
+                                    data-y="230" 
+                                    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                    data-speed="500"
+                                    data-start="1000"
+                                    data-easing="Back.easeOut"
+                                    data-splitin="none"
+                                    data-splitout="none"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    style="z-index: 4;">
+                                    <img src="assets/slider-layers/atlant_responsive.png" alt="Atlant"/>
                                 </div>
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
-                                </div>                            
-                            </div>                            
-                            <!-- END WIDGET REGISTRED -->
-                            
-                        </div>
-                        <div class="col-md-3">
-                            
-                            <!-- START WIDGET CLOCK -->
-                            <div class="widget widget-danger widget-padding-sm">
-                                <div class="widget-big-int plugin-clock">00:00</div>                            
-                                <div class="widget-subtitle plugin-date">Loading...</div>
-                                <div class="widget-controls">                                
-                                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="left" title="Remove Widget"><span class="fa fa-times"></span></a>
-                                </div>                            
-                                <div class="widget-buttons widget-c3">
-                                    <div class="col">
-                                        <a href="#"><span class="fa fa-clock-o"></span></a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#"><span class="fa fa-bell"></span></a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="#"><span class="fa fa-calendar"></span></a>
-                                    </div>
-                                </div>                            
-                            </div>                        
-                            <!-- END WIDGET CLOCK -->
-                            
-                        </div>
-                    </div>
-                    <!-- END WIDGETS -->                    
-                    
-                    <div class="row">
-                        <div class="col-md-8">
-                            
-                            <!-- START SALES BLOCK -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <div class="panel-title-box">
-                                        <h3>Sales</h3>
-                                        <span>Sales activity by period you selected</span>
-                                    </div>                                     
-                                    <ul class="panel-controls panel-controls-title">                                        
-                                        <li>
-                                            <div id="reportrange" class="dtrange">                                            
-                                                <span></span><b class="caret"></b>
-                                            </div>                                     
-                                        </li>                                
-                                        <li><a href="#" class="panel-fullscreen rounded"><span class="fa fa-expand"></span></a></li>
-                                    </ul>                                    
-                                    
+                                
+                                <div class="tp-caption black_thin_34 customin tp-resizeme rs-parallaxlevel-0"
+                                    data-x="0"
+                                    data-y="330" 
+                                    data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                    data-speed="500"
+                                    data-start="1100"
+                                    data-easing="Back.easeOut"
+                                    data-splitin="none"
+                                    data-splitout="none"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    style="z-index: 5;">
+                                    <img src="assets/slider-layers/atlant_tempalte.png" alt="Atlant"/>
                                 </div>
-                                <div class="panel-body">                                    
-                                    <div class="row stacked">
-                                        <div class="col-md-4">                                            
-                                            <div class="progress-list">                                               
-                                                <div class="pull-left"><strong>In Queue</strong></div>
-                                                <div class="pull-right">75%</div>                                                
-                                                <div class="progress progress-small progress-striped active">
-                                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">75%</div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-list">                                               
-                                                <div class="pull-left"><strong>Shipped Products</strong></div>
-                                                <div class="pull-right">450/500</div>                                                
-                                                <div class="progress progress-small progress-striped active">
-                                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">90%</div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-list">                                               
-                                                <div class="pull-left"><strong class="text-danger">Returned Products</strong></div>
-                                                <div class="pull-right">25/500</div>                                                
-                                                <div class="progress progress-small progress-striped active">
-                                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">5%</div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-list">                                               
-                                                <div class="pull-left"><strong class="text-warning">Progress Today</strong></div>
-                                                <div class="pull-right">75/150</div>                                                
-                                                <div class="progress progress-small progress-striped active">
-                                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
-                                                </div>
-                                            </div>
-                                            <p><span class="fa fa-warning"></span> Data update in end of each hour. You can update it manual by pressign update button</p>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div id="dashboard-map-seles" style="width: 100%; height: 200px"></div>
-                                        </div>
-                                    </div>                                    
+                                
+                            </li>                                    
+                                                        
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="700" >
+                                <img src="assets/video/video_typing_cover.jpg"  alt="video_typing_cover"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">                                
+                                
+                                <div class="tp-caption tp-fade fadeout fullscreenvideo"
+                                    data-x="0"
+                                    data-y="0"
+                                    data-speed="1000"
+                                    data-start="1100"
+                                    data-easing="Power4.easeOut"
+                                    data-elementdelay="0.01"
+                                    data-endelementdelay="0.1"
+                                    data-endspeed="1500"
+                                    data-endeasing="Power4.easeIn"
+                                    data-autoplay="true"
+                                    data-autoplayonlyfirsttime="false"
+                                    data-nextslideatend="true"
+                                    data-volume="mute" data-forceCover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 2;">
+
+                                    <video class="" preload="none" width="100%" height="100%" poster="assets/video/video_typing_cover.jpg"> 
+                                        <source src='assets/video/computer_typing.mp4' type='video/mp4'/>
+                                        <source src='assets/video/computer_typing.webm' type='video/webm'/>
+                                    </video>
                                 </div>
-                            </div>
-                            <!-- END SALES BLOCK -->
-                            
-                        </div>
-                        <div class="col-md-4">
-                            
-                            <!-- START PROJECTS BLOCK -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <div class="panel-title-box">
-                                        <h3>Projects</h3>
-                                        <span>Projects activity</span>
-                                    </div>                                    
-                                    <ul class="panel-controls" style="margin-top: 2px;">
-                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>                                        
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                            </ul>                                        
-                                        </li>                                        
-                                    </ul>
-                                </div>
-                                <div class="panel-body panel-body-table">
-                                    
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th width="50%">Project</th>
-                                                    <th width="20%">Status</th>
-                                                    <th width="30%">Activity</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Atlant</strong></td>
-                                                    <td><span class="label label-danger">Developing</span></td>
-                                                    <td>
-                                                        <div class="progress progress-small progress-striped active">
-                                                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">85%</div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Gemini</strong></td>
-                                                    <td><span class="label label-warning">Updating</span></td>
-                                                    <td>
-                                                        <div class="progress progress-small progress-striped active">
-                                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">40%</div>
-                                                        </div>
-                                                    </td>
-                                                </tr>                                                
-                                                <tr>
-                                                    <td><strong>Taurus</strong></td>
-                                                    <td><span class="label label-warning">Updating</span></td>
-                                                    <td>
-                                                        <div class="progress progress-small progress-striped active">
-                                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 72%;">72%</div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Leo</strong></td>
-                                                    <td><span class="label label-success">Support</span></td>
-                                                    <td>
-                                                        <div class="progress progress-small progress-striped active">
-                                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Virgo</strong></td>
-                                                    <td><span class="label label-success">Support</span></td>
-                                                    <td>
-                                                        <div class="progress progress-small progress-striped active">
-                                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-                                                        </div>
-                                                    </td>
-                                                </tr>                                                
-                                                <tr>
-                                                    <td><strong>Aquarius</strong></td>
-                                                    <td><span class="label label-success">Support</span></td>
-                                                    <td>
-                                                        <div class="progress progress-small progress-striped active">
-                                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <!-- END PROJECTS BLOCK -->
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-4">
-                            
-                            <!-- START SALES & EVENTS BLOCK -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <div class="panel-title-box">
-                                        <h3>Sales & Event</h3>
-                                        <span>Event "Purchase Button"</span>
-                                    </div>
-                                    <ul class="panel-controls" style="margin-top: 2px;">
-                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>                                        
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                            </ul>                                        
-                                        </li>                                        
-                                    </ul>
-                                </div>
-                                <div class="panel-body padding-0">
-                                    <div class="chart-holder" id="dashboard-line-1" style="height: 200px;"></div>
-                                </div>
-                            </div>
-                            <!-- END SALES & EVENTS BLOCK -->
-                            
-                        </div>
-                        <div class="col-md-4">
-                            
-                            <!-- START USERS ACTIVITY BLOCK -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <div class="panel-title-box">
-                                        <h3>Users Activity</h3>
-                                        <span>Users vs returning</span>
-                                    </div>                                    
-                                    <ul class="panel-controls" style="margin-top: 2px;">
-                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>                                        
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                            </ul>                                        
-                                        </li>                                        
-                                    </ul>                                    
+                                
+                                <div class="tp-caption customin ltl"
+                                        data-x="600"
+                                        data-y="280" 
+                                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                        data-speed="500"
+                                        data-start="1500"
+                                        data-easing="Power4.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.01"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn"
+                                        style="z-index: 3;">
+                                        <img src="assets/slider-layers/second_1.png"/>
                                 </div>                                
-                                <div class="panel-body padding-0">
-                                    <div class="chart-holder" id="dashboard-bar-1" style="height: 200px;"></div>
-                                </div>                                    
-                            </div>
-                            <!-- END USERS ACTIVITY BLOCK -->
-                            
+                                
+                                <div class="tp-caption customin ltl"
+                                        data-x="600"
+                                        data-y="320" 
+                                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                        data-speed="500"
+                                        data-start="1700"
+                                        data-easing="Power4.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.01"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn"
+                                        style="z-index: 3;">
+                                        <img src="assets/slider-layers/second_2.png"/>
+                                </div>
+                                
+                                <div class="tp-caption customin ltl"
+                                        data-x="600"
+                                        data-y="362" 
+                                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                        data-speed="500"
+                                        data-start="1900"
+                                        data-easing="Power4.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.01"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn"
+                                        style="z-index: 3;">
+                                        <img src="assets/slider-layers/second_3.png"/>
+                                </div>
+                                
+                                <div class="tp-caption customin ltl"
+                                        data-x="600"
+                                        data-y="404" 
+                                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                        data-speed="500"
+                                        data-start="2100"
+                                        data-easing="Power4.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.01"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn"
+                                        style="z-index: 3;">
+                                        <img src="assets/slider-layers/second_4.png"/>
+                                </div>
+                                
+                                <div class="tp-caption customin ltl"
+                                        data-x="600"
+                                        data-y="446" 
+                                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                        data-speed="500"
+                                        data-start="2200"
+                                        data-easing="Power4.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.01"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn"
+                                        style="z-index: 3;">
+                                        <img src="assets/slider-layers/second_5.png"/>
+                                </div>
+                                
+                                <div class="tp-caption customin ltl"
+                                        data-x="600"
+                                        data-y="488" 
+                                        data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                        data-speed="500"
+                                        data-start="2400"
+                                        data-easing="Power4.easeInOut"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.01"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn"
+                                        style="z-index: 3;">
+                                        <img src="assets/slider-layers/second_6.png"/>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>                        
+                <!-- ./revolution slider -->                        
+                
+                <!-- page content wrapper -->
+                <div class="page-content-wrap bg-light">
+                    <!-- page content holder -->
+                    <div class="page-content-holder padding-v-20">
+                        
+                        <div class="text-center">
+                            <a href="../html/index.html" class="btn btn-primary btn-xl"><span class="fa fa-eye"></span> Preview</a> <a href="http://themeforest.net/item/atlant-responsive-bootstrap-admin-template/9217590" class="btn btn-success btn-xl"><span class="fa fa-shopping-cart"></span> Purchase</a>
                         </div>
-                        <div class="col-md-4">
-                            
-                            <!-- START VISITORS BLOCK -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <div class="panel-title-box">
-                                        <h3>Visitors</h3>
-                                        <span>Visitors (last month)</span>
+                        
+                    </div>
+                    <!-- ./page content holder -->
+                </div>
+                <!-- ./page content wrapper -->                        
+
+                <!-- page content wrapper -->
+                <div class="page-content-wrap bg-img-1">
+
+                    <div class="divider"><div class="box"><span class="fa fa-angle-down"></span></div></div>                    
+                    
+                    <!-- page content holder -->
+                    <div class="page-content-holder">
+                        
+                        <div class="row">
+                            <div class="col-md-8 this-animate" data-animate="fadeInLeft">
+                                
+                                <div class="block-heading block-heading-centralized">
+                                    <h2 class="heading-underline">Optimized for mobile devices</h2>
+                                    <div class="block-heading-text">
+                                        Proin luctus nulla fringilla massa euismod commodo. Donec sit amet elementum libero. Curabitur ut lorem id tellus malesuada tincidunt et eget purus. Cras molestie, velit quis viverra ultrices, tortor erat suscipit arcu, a ullamcorper neque lorem et massa. Praesent facilisis tellus nec rutrum luctus. Curabitur non venenatis metus, vitae rhoncus risus. Donec quis mattis est. Proin ut augue vel odio condimentum ornare.
                                     </div>
-                                    <ul class="panel-controls" style="margin-top: 2px;">
-                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>                                        
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                            </ul>                                        
-                                        </li>                                        
-                                    </ul>
                                 </div>
-                                <div class="panel-body padding-0">
-                                    <div class="chart-holder" id="dashboard-donut-1" style="height: 200px;"></div>
+                                <div class="block this-animate" data-animate="fadeInLeft">
+                                    <img src="assets/atlant_technologies.png" class="img-responsive"/>
                                 </div>
                             </div>
-                            <!-- END VISITORS BLOCK -->
+                            <div class="col-md-4 this-animate text-center" data-animate="fadeInRight">
+                                <img src="assets/atlant_responsive.png" class="img-responsive-mobile"/>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    <!-- ./page content holder -->
+                </div>
+                <!-- ./page content wrapper -->                
+                
+                <!-- page content wrapper -->
+                <div class="page-content-wrap bg-texture-1 bg-dark light-elements">
+                    
+                    <div class="divider"><div class="box"><span class="fa fa-angle-down"></span></div></div>
+                    
+                    <!-- page content holder -->
+                    <div class="page-content-holder">
+                                                
+                        <div class="row">
+                            
+                            <div class="col-md-4">                                
+                                <div class="text-column text-column-centralized tex-column-icon-lg this-animate" data-animate="fadeInLeft">
+                                    <div class="text-column-icon">
+                                        <span class="fa fa-support"></span>
+                                    </div>
+                                    <h4>Free Updates & Support</h4>
+                                    <div class="text-column-info">
+                                        We provide <strong>free</strong> support for each customer who purchase template. We will do our best to help you.
+                                    </div>
+                                </div>                                
+                            </div>
+                            
+                            <div class="col-md-4">                                
+                                <div class="text-column text-column-centralized tex-column-icon-lg this-animate" data-animate="fadeInUp">
+                                    <div class="text-column-icon">
+                                        <span class="fa fa-expand"></span>
+                                    </div>
+                                    <h4>Responsive & Retina Ready</h4>
+                                    <div class="text-column-info">
+                                        Template builded using newest technologies, that gives you possibilities use it wherever you want.
+                                    </div>
+                                </div>                                
+                            </div>
+                            
+                            <div class="col-md-4">                                
+                                <div class="text-column text-column-centralized tex-column-icon-lg this-animate" data-animate="fadeInRight">
+                                    <div class="text-column-icon">
+                                        <span class="fa fa-clock-o"></span>
+                                    </div>
+                                    <h4>Time Saver</h4>
+                                    <div class="text-column-info">
+                                        With this template you will save really many time. And it's <strong>only $23</strong>.
+                                    </div>
+                                </div>                                
+                            </div>
                             
                         </div>
+                        
                     </div>
-                    
-                    <!-- START DASHBOARD CHART -->
-                    <div class="block-full-width">
-                        <div id="dashboard-chart" style="height: 250px; width: 100%; float: left;"></div>
-                        <div class="chart-legend">
-                            <div id="dashboard-legend"></div>
-                        </div>                                                
-                    </div>                    
-                    <!-- END DASHBOARD CHART -->
-                    
+                    <!-- ./page content holder -->
                 </div>
-                <!-- END PAGE CONTENT WRAPPER -->                                
-            </div>            
-            <!-- END PAGE CONTENT -->
-        </div>
-        <!-- END PAGE CONTAINER -->
+                <!-- ./page content wrapper -->
 
-        <!-- MESSAGE BOX-->
-        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
-            <div class="mb-container">
-                <div class="mb-middle">
-                    <div class="mb-title"><span class="fa fa-sign-out"></span> Log <strong>Out</strong> ?</div>
-                    <div class="mb-content">
-                        <p>Are you sure you want to log out?</p>                    
-                        <p>Press No if youwant to continue work. Press Yes to logout current user.</p>
+                <!-- page content wrapper -->                
+                <div class="page-content-wrap bg-light bg-texture-1">
+                    
+                    <div class="divider"><div class="box"><span class="fa fa-angle-down"></span></div></div>                    
+                    
+                    <!-- page content holder -->
+                    <div class="page-content-holder">                        
+                        
+                        <div class="quote this-animate" data-animate="fadeInDown">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h3><strong>ATLANT</strong> &mdash; Responsive Bootstrap Admin Template</h3>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-primary btn-block btn-lg">Preview Admin</button>
+                                </div>
+                            </div>
+                        </div>                        
+                        
                     </div>
-                    <div class="mb-footer">
-                        <div class="pull-right">
-                            <a href="pages-login.html" class="btn btn-success btn-lg">Yes</a>
-                            <button class="btn btn-default btn-lg mb-control-close">No</button>
+                    <!-- ./page content holder -->
+                </div>
+                <!-- ./page content wrapper -->                    
+                                    
+                <!-- page content wrapper -->
+                <div class="page-content-wrap bg-light">
+                    <!-- page content holder -->
+                    <div class="page-content-holder padding-v-20">
+                        
+                        <div class="text-center">
+                            <a href="../html/index.html" class="btn btn-primary btn-xl"><span class="fa fa-eye"></span> Preview</a> <a href="http://themeforest.net/item/atlant-responsive-bootstrap-admin-template/9217590" class="btn btn-success btn-xl"><span class="fa fa-shopping-cart"></span> Purchase</a>
                         </div>
+                        
                     </div>
+                    <!-- ./page content holder -->
                 </div>
+                <!-- ./page content wrapper -->
             </div>
-        </div>
-        <!-- END MESSAGE BOX-->
-
-        <!-- START PRELOADS -->
-        <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
-        <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
-        <!-- END PRELOADS -->                  
+            <!-- ./page content -->
+            
+            <!-- page footer -->
+            <div class="page-footer">
+                
+                <!-- page footer wrap -->
+                <div class="page-footer-wrap bg-dark-gray">
+                    <!-- page footer holder -->
+                    <div class="page-footer-holder page-footer-holder-main">
+                                                
+                        <div class="row">
+                            
+                            <!-- about -->
+                            <div class="col-md-3">
+                                <h3>About Template</h3>
+                                <p>Lorem ipsum dolor natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                            </div>
+                            <!-- ./about -->
+                            
+                            <!-- quick links -->
+                            <div class="col-md-3">
+                                <h3>Quick links</h3>
+                                
+                                <div class="list-links">
+                                    <a href="#">Home</a>                                    
+                                    <a href="#">Pages</a>
+                                    <a href="#">Portfolio</a>
+                                    <a href="#">Shortcodes</a>
+                                </div>                                
+                            </div>
+                            <!-- ./quick links -->
+                            
+                            <!-- recent tweets -->
+                            <div class="col-md-3">
+                                <h3>Recent Tweets</h3>
+                                
+                                <div class="list-with-icon small">
+                                    <div class="item">
+                                        <div class="icon">
+                                            <span class="fa fa-twitter"></span>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">@JohnDoe</a> Hello, here is my new front-end template. Check it out
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <span class="fa fa-twitter"></span>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">@Aqvatarius</a> Release of new update for Atlant is done and ready to use
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <span class="fa fa-twitter"></span>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">@Aqvatarius</a> Check out my new admin template Atlant, it's realy awesome template
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- ./recent tweets -->
+                            
+                            <!-- contacts -->
+                            <div class="col-md-3">
+                                <h3>Contacts</h3>
+                                
+                                <div class="footer-contacts">
+                                    <div class="fc-row">
+                                        <span class="fa fa-home"></span>
+                                        000 StreetName, Suite 111,<br/> 
+                                        City Name, ST 01234
+                                    </div>
+                                    <div class="fc-row">
+                                        <span class="fa fa-phone"></span>
+                                        (123) 456-7890
+                                    </div>
+                                    <div class="fc-row">
+                                        <span class="fa fa-envelope"></span>
+                                        <strong>John Doe</strong><br>
+                                        <a href="mailto:#">johndoe@domain.com</a>
+                                    </div>                                    
+                                </div>
+                                
+                                <h3>Subscribe</h3>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Your email"/>
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-primary"><span class="fa fa-paper-plane"></span></button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- ./contacts -->
+                            
+                        </div>
+                        
+                    </div>
+                    <!-- ./page footer holder -->
+                </div>
+                <!-- ./page footer wrap -->
+                
+                <!-- page footer wrap -->
+                <div class="page-footer-wrap bg-darken-gray">
+                    <!-- page footer holder -->
+                    <div class="page-footer-holder">
+                        
+                        <!-- copyright -->
+                        <div class="copyright">
+                            &copy; 2014 Atlant Theme by <a href="#">Aqvatarius</a> - All Rights Reserved                            
+                        </div>
+                        <!-- ./copyright -->
+                        
+                        <!-- social links -->
+                        <div class="social-links">
+                            <a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                            <a href="#"><span class="fa fa-google-plus"></span></a>
+                            <a href="#"><span class="fa fa-linkedin"></span></a>
+                            <a href="#"><span class="fa fa-vimeo-square"></span></a>
+                            <a href="#"><span class="fa fa-dribbble"></span></a>
+                        </div>                        
+                        <!-- ./social links -->
+                        
+                    </div>
+                    <!-- ./page footer holder -->
+                </div>
+                <!-- ./page footer wrap -->
+                
+            </div>
+            <!-- ./page footer -->
+            
+        </div>        
+        <!-- ./page container -->
         
-    <!-- START SCRIPTS -->
-        <!-- START PLUGINS -->
+        <!-- page scripts -->
         <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
-        <!-- END PLUGINS -->
-
-        <!-- START THIS PAGE PLUGINS-->        
-        <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>        
-        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
-        <script type="text/javascript" src="js/plugins/scrolltotop/scrolltopcontrol.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
         
-        <script type="text/javascript" src="js/plugins/morris/raphael-min.js"></script>
-        <script type="text/javascript" src="js/plugins/morris/morris.min.js"></script>       
-        <script type="text/javascript" src="js/plugins/rickshaw/d3.v3.js"></script>
-        <script type="text/javascript" src="js/plugins/rickshaw/rickshaw.min.js"></script>
-        <script type='text/javascript' src='js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js'></script>
-        <script type='text/javascript' src='js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js'></script>                
-        <script type='text/javascript' src='js/plugins/bootstrap/bootstrap-datepicker.js'></script>                
-        <script type="text/javascript" src="js/plugins/owl/owl.carousel.min.js"></script>                 
+        <script type="text/javascript" src="js/plugins/mixitup/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/plugins/appear/jquery.appear.js"></script>
         
-        <script type="text/javascript" src="js/plugins/moment.min.js"></script>
-        <script type="text/javascript" src="js/plugins/daterangepicker/daterangepicker.js"></script>
-        <!-- END THIS PAGE PLUGINS-->        
-
-        <!-- START TEMPLATE -->
-        <script type="text/javascript" src="js/settings.js"></script>
+        <script type="text/javascript" src="js/plugins/revolution-slider/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="js/plugins/revolution-slider/jquery.themepunch.revolution.min.js"></script>
         
-        <script type="text/javascript" src="js/plugins.js"></script>        
         <script type="text/javascript" src="js/actions.js"></script>
-        
-        <script type="text/javascript" src="js/demo_dashboard.js"></script>
-        <!-- END TEMPLATE -->
-    <!-- END SCRIPTS -->         
+        <script type="text/javascript" src="js/slider.js"></script>
+        <!-- ./page scripts -->
     </body>
 </html>
 
